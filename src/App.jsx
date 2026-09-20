@@ -4,6 +4,10 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import MainContent from "./components/MainContent.jsx";
+
 // function App() {
 //   const [count, setCount] = useState(0)
 
@@ -120,4 +124,13 @@
 // }
 
 // export default App
-
+export default function App() {
+    return (
+        <>
+    
+        <Header />
+        <MainContent />
+        <Footer />
+    </>
+    )
+}

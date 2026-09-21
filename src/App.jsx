@@ -126,11 +126,10 @@ import MainContent from "./components/MainContent.jsx";
 // export default App
 export default function App() {
     return (
-        <>
-    
-        <Header />
-        <MainContent />
-        <Footer />
-    </>
+        <div className="d-flex flex-column min-vh-100">
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
     )
 }
